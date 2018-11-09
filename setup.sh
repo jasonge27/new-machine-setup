@@ -1,11 +1,11 @@
 apt-get update
 
-rm -f ~/.vimrc
-cp -f vimrc ~/.vimrc
-rm -f ~/.vim      
+rm -rf ~/.vimrc
+cp -rf vimrc ~/.vimrc
+rm -rf ~/.vim      
 cp -rf vim ~/.vim
 
-rm -f ~/.tmux.conf
-cp -f tmux.conf ~/.tmux.conf
+rm -rf ~/.tmux.conf
+cp -rf tmux.conf ~/.tmux.conf
 
-
+git config credential.helper store
